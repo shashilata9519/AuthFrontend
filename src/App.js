@@ -15,6 +15,7 @@ function App() {
         <Link to="/reset-password">Reset Password</Link>
       </nav> */}
       <Routes>
+        <Route path="/" element={<Register />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/request-otp" element={<RequestOTP />} />
